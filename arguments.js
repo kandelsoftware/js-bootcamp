@@ -5,7 +5,7 @@ results = add(10, 4);
 console.log(results);
 
 let getScoreText = function (name = 'Anonymous', score = 0) {
-    return ' Name:' + name + '-Score' + score;
+    return ` Name: ${name} \n Score: ${score}`;
 };
 let scoreText = getScoreText(undefined, 99);
 console.log(scoreText);
